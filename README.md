@@ -7,7 +7,7 @@
 
 ---
 <h3>💻 About Me</h3>
-I'm a driven Research / ML Engineer with 1.5 years of experience, specializing in <b>3D human motion generation 💃</b>. I'm hands-on with data orchestration pipelines based on Airflow and deployment-oriented serving pipelines—delivering reliable, scalable research code that works in production.
+Product-oriented AI research engineer with 3.5+ years of experience in human motion generation and machine learning systems. My work spans multiple stages of the ML lifecycle, including data pipelines, model development, deployment, and serving. I focus on translating generative AI research into production-ready features and systems.
 
 <h3>📖 Recent News</h3>
 
