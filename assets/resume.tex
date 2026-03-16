@@ -1,0 +1,309 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Eunhee Kim} \\ \vspace{1pt}
+    \href{mailto:eunhee.dev@gmail.com}{\underline{eunhee.dev@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/eun-hee-kim/}{\underline{linkedin.com/in/eun-hee-kim}} $|$
+    \href{https://github.com/eunhee-dev}{\underline{github.com/eunhee-dev}}
+\end{center}
+
+% -----------Multiple Positions Heading-----------
+%    \resumeSubSubheading
+%     {Software Engineer I}{Oct 2014 - Sep 2016}
+%     \resumeItemListStart
+%        \resumeItem{Apache Beam}
+%          {Apache Beam is a unified model for defining both batch and streaming data-parallel processing pipelines}
+%     \resumeItemListEnd
+%    \resumeSubHeadingListEnd
+%-------------------------------------------
+
+% \section{Experience}
+%     \resumeSubheading
+%       {AI Research Engineer}{Aug 2024 -- Present}
+%       {Cinamon Inc.}{Seoul, South Korea}
+%       \resumeItemListStart
+%         \resumeItem{Communicate with managers to set up campus computers used on campus}
+%         \resumeItem{Assess and troubleshoot computer problems brought by students, faculty and staff}
+%         \resumeItem{Maintain upkeep of computers, classroom equipment, and 200 printers across campus}
+%     \resumeItemListEnd
+
+%     \resumeSubheading
+%       {Artificial Intelligence Research Assistant}{May 2019 -- July 2019}
+%       {Southwestern University}{Georgetown, TX}
+%       \resumeItemListStart
+%         \resumeItem{Explored methods to generate video game dungeons based off of \emph{The Legend of Zelda}}
+%         \resumeItem{Developed a game in Java to test the generated dungeons}
+%         \resumeItem{Contributed 50K+ lines of code to an established codebase via Git}
+%         \resumeItem{Conducted  a human subject study to determine which video game dungeon generation technique is enjoyable}
+%         \resumeItem{Wrote an 8-page paper and gave multiple presentations on-campus}
+%         \resumeItem{Presented virtually to the World Conference on Computational Intelligence}
+%       \resumeItemListEnd
+%   % \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\resumeSubHeadingListStart
+
+  \resumeSubheading
+    {AI Research Engineer}{Aug 2024 -- Present}
+    {Cinamon Inc.}{Seoul, South Korea}
+    \resumeItemListStart
+      \resumeItem{Developed generative motion models for \href{https://cinev.com/en}{CineV}, video generation service based on LLMs and Unreal Engine}
+      \resumeItem{Implemented generative models for text-to-motion, motion refinement, stylization, in-betweening, and part-aware composition}
+      \resumeItem{Optimized and served ML models using Triton, ONNX, TorchServe, achieving 10x faster inference}
+      \resumeItem{Managed orchestration of automated data preprocessing pipelines using Airflow and Dagster}
+    \resumeItemListEnd
+
+  \resumeSubheading
+    {Intern Researcher}{Sep. 2021 -- Feb 2022}
+    {Gwangju Institute of Science and Technology}{Gwangju, South Korea}
+    \resumeItemListStart
+      \resumeItem{Conducted data analysis on factors affecting user churn in online games}
+    \resumeItemListEnd
+
+  \resumeSubheading
+  {Teaching Assistant}{Nov. 2020 -- Nov. 2020}
+  {Korea Social Science Data Archive (KOSSDA)}{Remote}
+  \resumeItemListStart
+  \resumeItem{Teaching Assistant for the KOSSDA Research Methodology Workshop, Introduction to Statistical Analysis with R}
+  \resumeItem{Assisted with hands-on sessions covering statistical analysis}
+  \resumeItemListEnd
+
+  \resumeSubheading
+  {Research Staff (Team Leader)}{Feb. 2018 -- Nov. 2018}
+  {Survey Research Center, Sungkyunkwan University}{Seoul, South Korea}
+  \resumeItemListStart
+  \resumeItem{Conducted face-to-face social survey interviews in the Seoul and Gyeonggi regions}
+  \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Gwangju Institute of Science and Technology (GIST)}{Gwangju, South Korea}
+      {Master of Science in Integrated Technology (Graduate Program of Culture Technology)}{Mar. 2022 -- Feb. 2024}
+        \resumeItemListStart
+          \resumeItem{Supervisor: Kyung-Joong Kim}
+          \resumeItem{\href{https://cilab.gist.ac.kr/hp/}{Cognition and Intelligence Lab}}
+          \resumeItem{Cumulative GPA: 4.25/4.5}
+        \resumeItemListEnd
+    \resumeSubheading
+      {Kyung-Hee University}{Seoul, South Korea}
+      {Bachelor of Arts in Sociology and Bachelor of Science in Applied Mathematics}{Mar. 2017 -- Aug. 2021}
+      \resumeItemListStart
+        \resumeItem{Cumulative GPA: 4.04/4.5}
+      \resumeItemListEnd
+    \resumeSubheading
+      {University of Turku}{Turku, Finland}
+      {Exchange Student Program, Mathematics}{Aug. 2019 -- Dec. 2019}
+  \resumeSubHeadingListEnd
+
+      
+
+
+%-----------PUBLICATIONS-----------
+\section{Publications}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{Controllable Long-term Motion Generation with Extended Joint Targets} 
+          \\$|$ \emph{WACV}}{Mar. 2026}
+          \resumeItemListStart
+            \resumeItem{Eunjong Lee, \textbf{Eunhee Kim}, Sanghoon Hong, Eunho Jung, Jihoon Kim}
+            \resumeItem{\href{https://comet-proj.github.io}{Project Page} $|$ \href{https://openaccess.thecvf.com/content/WACV2026/html/Lee_Controllable_Long-term_Motion_Generation_with_Extended_Joint_Targets_WACV_2026_paper.html}{Paper} $|$ \href{https://youtu.be/vZh8PwArOe0?si=MOItkrb3HT2LwRAU}{Video}}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{DAncing body, Speaking Hands (DASH): Sign Dance Generation System with Deep Learning} 
+          \\ $|$ \emph{SIGGRAPH Poster}}{Jul. 2023}
+          \resumeItemListStart
+            \resumeItem{\textbf{Eunhee Kim}, Taehwa Park, Jaeyoung Moon, Wonsang You, Taegwan Ha, Kyung-Joong Kim}
+            \resumeItem{\href{https://dl.acm.org/doi/abs/10.1145/3588028.3603687}{Paper}}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+    
+
+%
+%-----------PATENTS-----------
+\section{Patents}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{\href{https://doi.org/10.8080/1020230061217}{10-2023-0061217}}{, Motion Feedback Method and System using Normalized Data} \\
+    }}
+ \end{itemize}
+
+% %-----------PROJECTS-----------
+\section{Selected Projects}
+    \resumeSubHeadingListStart
+    \resumeProjectHeading
+        {\textbf{Visualize Music and Dance for the Hard-of-Hearing to Enjoy Music} $|$ \emph{KOCCA}}{Mar. 2022 -- Dec. 2023}
+          \resumeItemListStart
+            \resumeItem{Developed music-to-motion generation model based on VQ-VAE and Diffusion Models}
+            \resumeItem{Implemented `Sign Dance' generating system, incorporating sign language to dance}
+            \resumeItem{In-the-wild data preprocessing from video to SMPL motion data using human pose estimation}
+            \resumeItem{Built Korean sign language motion-text paired database of 35,000 frames}
+            \resumeItem{\href{https://n.news.naver.com/mnews/article/056/0011492822?sid=103}{Press}}
+          \resumeItemListEnd
+    \resumeProjectHeading
+          {\textbf{HCI + AI for Human-Centered Physical System Design} $|$ \emph{GIST, MIT CSAIL}}{Mar. 2022 -- May. 2024}
+          \resumeItemListStart
+            \resumeItem{Developed real-time physical systems for estimating human pose from multi-view video and pressure-sensing data}
+            \resumeItem{Implemented virtual assistant with Transformer-based muscle EMG prediction model from pressure-sensing data}
+          \resumeItemListEnd
+      \resumeProjectHeading
+          {\textbf{Groovy Graph} $|$ \emph{Pseudo Lab (Non-profit AI Research Organization)}}{Mar. 2022 -- Jul. 2022}
+          \resumeItemListStart
+            \resumeItem{Weekly academic paper review of graph neural networks}
+            \resumeItem{\href{https://chanrankim.notion.site/Groovy-Graph-1a98bd335501499e894efd5a79efe479}{Project Page} $|$ \href{https://pseudo-lab.github.io/graph/}{Team Blog}}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+%
+%-----------PROGRAMMING SKILLS-----------
+\section{Technical Skills}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Technical Skills}{: Python, PyTorch, Triton, ONNX, TorchServe, FastAPI, W\&B, TensorBoard} \\
+     \textbf{Graphics Tools}{: Blender, Photoshop, Illustrator} \\
+     \textbf{Developer Tools}{: Git} \\
+     \textbf{Languages}{: Korean (Native), English (Fluent)}
+    }}
+ \end{itemize}
+
+
+
+%-----------SELECTED HONORS-----------
+\section{Selected Honors}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Best Game AI Jam Project}{Chania, Greece}
+      {International Summer School on AI and Games}{2022}
+    \resumeSubheading{Scholarship for Activities of International Affairs}{Seoul, South Korea}{Kyung-Hee University}{2020}
+    \resumeSubheading{Dream Scholarship of Research}{Seoul, South Korea}{Kyung-Hee University}{2019 -- 2020}
+    \resumeSubheading{Scholarship for Professor-Tutor-Student Portfolio}{Seoul, South Korea}{Kyung-Hee University}{2018 -- 2019}
+    \resumeSubheading
+    {Superior Scholarship}{Seoul, South Korea}{Kyung-Hee University}{2017}
+    \resumeSubHeadingListEnd
+
+%-----------CERTIFICATES-----------
+\section{Certificates \& Test Scores}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+    \textbf{Survey Analyst}{, Junior (Sep. 2020)} \\
+     \textbf{OPIc}{, IH (Mar. 2024)} \\
+     \textbf{TOEIC}{, 905 (Oct. 2023)} \\
+     \textbf{TOEFL}{, 92 (Sep. 2018)} \\
+    }}
+ \end{itemize}
+
+\end{document}

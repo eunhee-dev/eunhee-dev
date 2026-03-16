@@ -2,6 +2,7 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/eun-hee-kim/">LinkedIn</a> •
+  <a href="./assets/resume.pdf">CV</a> •
   <a href="https://www.instagram.com/theknitterkim/">Instagram</a>
 </p>
 
