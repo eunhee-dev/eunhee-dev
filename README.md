@@ -12,7 +12,7 @@ Product-oriented AI research engineer with 3.5+ years of experience in human mot
 
 <h3>📖 Recent News</h3>
 
-🎉 **December 2025** - Our paper **"[COMET: Controllable Long-term Motion Generation with Extended Joint Targets](https://arxiv.org/abs/2512.04487)"** has been accepted to **WACV 2026**!
+🎉 **December 2025** - Our paper **"[COMET: Controllable Long-term Motion Generation with Extended Joint Targets](https://openaccess.thecvf.com/content/WACV2026/html/Lee_Controllable_Long-term_Motion_Generation_with_Extended_Joint_Targets_WACV_2026_paper.html)"** has been accepted to **WACV 2026**!
 
 ---
 
