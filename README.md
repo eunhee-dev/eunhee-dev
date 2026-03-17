@@ -16,5 +16,5 @@ Product-oriented AI research engineer with 3.5+ years of experience in human mot
 
 ---
 
-- 📫 Reach me on [email](mailto:eunee.stella@gmail.com)  
+- 📫 Reach me on [email](mailto:eunhee.dev@gmail.com)  
 - 😄 Pronouns: She/Her  
