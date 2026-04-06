@@ -1,6 +1,11 @@
-### 👋 Hi there, I'm Eunhee Kim
+<h3 align="center">👋 Hi there, I'm Eunhee Kim</h3>
 
-[LinkedIn](https://www.linkedin.com/in/eun-hee-kim/) • [CV(ENG)](./assets/resume_ENG.pdf) • [CV(KOR)](./assets/resume_KOR.pdf) • [Instagram](https://www.instagram.com/theknitterkim/)
+<p align="center">
+  <a href="https://www.linkedin.com/in/eun-hee-kim/">LinkedIn</a> •
+  <a href="./assets/resume_ENG.pdf">CV(ENG)</a> •
+  <a href="./assets/resume_KOR.pdf">CV(KOR)</a> •
+  <a href="https://www.instagram.com/theknitterkim/">Instagram</a>
+</p>
 
 ---
 
