@@ -3,7 +3,6 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/eun-hee-kim/">LinkedIn</a> •
   <a href="./assets/resume_ENG.pdf">CV(ENG)</a> •
-  <a href="./assets/resume_KOR.pdf">CV(KOR)</a> •
   <a href="https://www.instagram.com/theknitterkim/">Instagram</a>
 </p>
 
